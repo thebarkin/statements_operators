@@ -4,15 +4,12 @@ Socrates is a man.
 Therefore, socrates is mortal.
  */
 
-const mortal = true;
-const man = true;
-
 const men = {
   name: "Socrates",
   morality: true,
 }
 
-if ( men.name ===  'Socrates' ){
+if ( men.name ===  'Socrates' && men.morality ){
   console.log( 'Socrates is mortal' );
 }
 
